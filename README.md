@@ -33,7 +33,7 @@ While me and my friend are fairly experienced when it comes to security, stuff c
 # Self hosting instructions - Requirements.
   - A Linux-based host. Some features use the Linux command line and will _not_ work on Windows. (Debian recommended, others will more than likely work fine)
   - Nginx. Unless you can securely convert the rules, don't use Apache. You can use Nginx on an alternative port and reverse proxy requests to Nginx through Apache if you need to do so.
-  - PHP 8/7.4.2 - These are the only versions we have used recent FilePush versions on. We're currently on PHP 8, older versions may return undesirable results. We recommend always using the latest version. We adapt changes around it as updates roll out, where we need to do so.
+  - PHP 8/~~7.4.2~~ - These are the only versions we have used recent FilePush versions on. We're currently on PHP 8, ~~older versions may return undesirable results~~ Older versions will no longer work due to elements we're using within PHP8.
   - A MySQL server. We use MariaDB.
   - ~~A Discord account. (So you can create the client-application to enable logins)~~ Discord integrations have been removed due to Discord being shit. May consider adding it back in the future?
 
